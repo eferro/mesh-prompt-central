@@ -42,7 +42,6 @@ const AppSidebar = ({ userMemberships, currentOrgId, onOrgChange }: AppSidebarPr
     { title: "Prompts", url: "/prompts", icon: MessageSquare },
     { title: "Organizations", url: "/organizations", icon: Users },
     { title: "API Keys", url: "/api-keys", icon: Key },
-    { title: "Settings", url: "/settings", icon: Settings },
   ];
 
   const handleSignOut = async () => {

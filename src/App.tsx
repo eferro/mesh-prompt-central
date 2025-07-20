@@ -8,6 +8,7 @@ import AppLayout from "./components/layout/AppLayout";
 import Dashboard from "./pages/Dashboard";
 import Organizations from "./pages/Organizations";
 import ApiKeys from "./pages/ApiKeys";
+import Prompts from "./pages/Prompts";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -24,6 +25,7 @@ const App = () => (
             <Route index element={<Dashboard />} />
             <Route path="organizations" element={<Organizations />} />
             <Route path="api-keys" element={<ApiKeys />} />
+            <Route path="prompts" element={<Prompts />} />
           </Route>
           <Route path="*" element={<NotFound />} />
         </Routes>
