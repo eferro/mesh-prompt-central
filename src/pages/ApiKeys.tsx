@@ -336,10 +336,10 @@ const ApiKeys = () => {
               <h4 className="font-medium mb-2">MCP Server Endpoints</h4>
               <div className="space-y-2">
                 <code className="block p-2 bg-muted rounded text-sm">
-                  POST https://axeuvumvofclazxcmmri.supabase.co/functions/v1/mcp
+                  POST https://axeuvumvofclazxcmmr1.supabase.co/functions/v1/mcp
                 </code>
                 <code className="block p-2 bg-muted rounded text-sm">
-                  GET https://axeuvumvofclazxcmmri.supabase.co/functions/v1/mcp/stream
+                  GET https://axeuvumvofclazxcmmr1.supabase.co/functions/v1/mcp/stream
                 </code>
               </div>
             </div>

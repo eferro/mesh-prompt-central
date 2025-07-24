@@ -85,9 +85,10 @@ const AuthPage = () => {
         description: "Please check your email to verify your account.",
       });
     } catch (error: any) {
+      console.error('Signup error:', error);
       toast({
         title: "Sign up failed",
-        description: error.message,
+        description: error.message || 'An unknown error occurred',
         variant: "destructive",
       });
     } finally {
